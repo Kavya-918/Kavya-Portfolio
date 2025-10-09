@@ -1,0 +1,25 @@
+main, header, footer, section {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  margin: 0.25rem 0;
+}
+
+ul {
+  margin: 0.5rem 0 0.25rem 1.1rem;
+}
+
+@media (max-width: 640px) {
+  main, header, footer, section {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  #home > div {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+  }
+}
