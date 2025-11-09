@@ -11,12 +11,12 @@ function formatDate(iso: string | undefined): string {
 
 export default function Experience() {
   return (
-    <section id="experience" style={{ padding: '3rem 0', textAlign: 'left' }}>
+    <section id="experience" style={{ padding: '3rem 0', textAlign: 'center' }}>
       <AnimatedSection direction="up" delay={0.1}>
         <h2 className="hl-title" style={{ textAlign: 'center', marginBottom: '1rem' }}>Experience</h2>
       </AnimatedSection>
-      <div style={{ maxWidth: 1100, margin: '0 auto' }}>
-        {experience.map((exp, idx) => (
+      <div style={{ maxWidth: 1100, margin: '0 auto', textAlign: 'left' }}>
+        {experience.map((_exp, idx) => (
           <AnimatedSection key={idx} direction={idx % 2 === 0 ? 'left' : 'right'} delay={0.2 + (idx * 0.1)}>
             <ExperienceCard index={idx} />
           </AnimatedSection>

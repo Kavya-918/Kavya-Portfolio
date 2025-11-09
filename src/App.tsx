@@ -10,7 +10,8 @@ import Footer from './components/Footer'
 import { useState } from 'react'
 
 function App() {
-  const [focusedSection, setFocusedSection] = useState<null | 'home' | 'about' | 'technologies' | 'experience' | 'projects'>(null)
+  const [focusedSection, setFocusedSection] = useState<null | 'home' | 'about' | 'technologies' | 'experience' | 'projects'>(null);
+  console.log(focusedSection);
   return (
     <>
       <Header focused={null} onSelect={() => setFocusedSection(null)} onClear={() => setFocusedSection(null)} />

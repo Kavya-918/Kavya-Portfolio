@@ -14,12 +14,6 @@
   background-color: #121212;
 }
 
-[data-theme='light'] {
-  color-scheme: light;
-  color: #213547;
-  background-color: #ffffff;
-}
-
 a {
   font-weight: 500;
   color: #646cff;
