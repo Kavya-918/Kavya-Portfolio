@@ -30,14 +30,14 @@ export const projects: Project[] = [
       "Developed a Quiz Application using Java. The application includes features such as displaying rules, presenting questions, providing lifelines, and displaying results. Users enter and read the instructions and start the quiz; a lifeline can be used only once, and each question has a 15-second timer. Finally, the app displays the score and allows users to retake the quiz.",
     tags: ["Java"],
     repo: "https://github.com/Kavya-918/Java-QuizApplication",
-    image: "/QuizApplication.jpg"
+    image: "/QuizApplication.png"
   },
   {
     title: "Random Color Generator",
     summary:
       "I've developed a dynamic random color generator web app using HTML, CSS, and JavaScript. Users can effortlessly generate an array of vibrant colors with just a click. The intuitive interface ensures a seamless experience, making it perfect for designers and developers. The application enables users to generate random colors with ease.",
     tags: ["HTML", "CSS", "JavaScript"],
-    image: "/Randomcolor.jpg",
+    image: "/Randomcolor.png",
     repo: "https://github.com/Kavya-918/Random-Color-Generator"
   }
 ];

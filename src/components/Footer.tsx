@@ -2,7 +2,7 @@ export default function Footer() {
   return (
     <footer style={{ padding: '2rem 0', opacity: 0.9 }}>
       <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center', marginBottom: '0.5rem' }}>
-        <a className="social-icon" href="mailto:pallipatekumarkavya18@gmail.com" target="_blank" aria-label="Email" title="Email">
+        <a className="social-icon" href="mailto:pallipatekumarkavya@gmail.com" target="_blank" aria-label="Email" title="Email">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="#EA4335" xmlns="http://www.w3.org/2000/svg"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Zm0 4-8 5L4 8V6l8 5 8-5v2Z"/></svg>
         </a>
         <a className="social-icon" href="https://www.linkedin.com/in/pallipatekumarkavya/" target="_blank" aria-label="LinkedIn" title="LinkedIn">

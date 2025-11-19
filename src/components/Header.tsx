@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react'
-import ThemeToggle from './ThemeToggle'
 
 const sections = [
   { id: 'home', label: 'Home' },
@@ -11,6 +10,7 @@ const sections = [
 ]
 
 export default function Header({ focused, onSelect, onClear }: { focused?: string | null, onSelect?: (id: string) => void, onClear?: () => void }) {
+  console.log(onSelect);
   const [active, setActive] = useState('home')
   const [open, setOpen] = useState(false)
 
@@ -68,7 +68,6 @@ export default function Header({ focused, onSelect, onClear }: { focused?: strin
           {focused && (
             <button onClick={onClear} style={{ border: '1px solid #444', background: 'transparent', color: 'inherit', padding: '6px 10px', borderRadius: 6, cursor: 'pointer' }}>Show All</button>
           )}
-        <ThemeToggle />
         </div>
       </nav>
     </header>

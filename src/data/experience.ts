@@ -29,7 +29,7 @@ export const experience: Experience[] = [
           "Parsed CVSS vectors to classify vulnerabilities by CIA triad; added filters by severity, impact, and patch availability.",
           "Participated in installation at ISRO; resolved deployment bugs and issues."
         ],
-        stack: ["Java", "Spring Boot", "React", "TypeScript", "MySQL", "REST", "Docker"]
+        stack: ["Java", "Spring Boot", "MySQL", "REST API"]
       },
       {
         name: "HRM (Human Resource Management) Platform",
